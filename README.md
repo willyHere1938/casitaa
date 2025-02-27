@@ -9,7 +9,11 @@ CARLOS ARTURO MORENO SUSATAMA
     * Integrante 3 
 
 ## LOS PROPIOS KOMANDOS
-fix y fit (para modificar )
+git pull (informacion actualizada)
+git status
+git add .
+git commit -a -m "fix: modofique readme"
+fix y git (para modificar )
 
 
 Inicializar el Proyecto
