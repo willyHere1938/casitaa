@@ -56,3 +56,14 @@ al finalizar estos pasos ningun archivo debe aparecer de colores en su espacio d
  
 siga estos pasos para tener exito en el desarrollo de las clases y trabajo individual.
 
+________________________________________________________________________________________________
+
+## Manejo de Formularios con PHP
+
+Session_destroy(); // destruye la variable de logeo actual
+Session_start(); // Permite iniciar y crea espacio en la memoria de usuario
+Session_unset(); // Destruye todas las variables creadas por Session_start();
+$_POST["variable"]; // Permite adquirir variables entre el DOM "Se usa para formuloarios"
+$_GET["variable"]; // Permite adquirir variables enviadas mediante la url a php
+header("location:url_server"); // Envia o redirecciona a un php creado dentro del servidor
+exit(); // tenia las variables
